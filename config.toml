@@ -1,5 +1,5 @@
 ################################# Default configuration ###################
-baseURL = "https://416salon.netlify.com/en"
+baseURL = "https://416salon.netlify.com"
 title = "Airspace | Creative Agency Hugo Template"
 theme = "airspace-hugo"
 # post pagination
