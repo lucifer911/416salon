@@ -3,43 +3,39 @@ pricing:
   enable : true
   pricing_table:
     # pricing table loop
-    - name : "Basic"
-      price: "$99"
-      content : "Perfect for single freelancers who work by themselves"
-      link : "#"
+    - name : "Hair"
+      price: "$25 +"
+      content : "Men & Women Hair cuts"
+      link : "contact"
       services:
-        - Unlimited agents
-        - 10 PSD Design
-        - HTML5 Markup
-        - Basic SEO
-        - Email Marketing
-        - 24/7 Tech Support
+        - Men haircuts / $15
+        - Wemen haircuts / $45
+        - Hair wash / $25 (with haircut $10)
+        - Hair blow dry / $35 (with haircut or wash $15)
+        - Hair curls / $45 (with haircut or wash$25)
+        - Hair color $75
+        - Combo for Women (Hair cut + Wash + Blow dry/Curl) $165
+        -
+        - Combo for Man (Hair cut + Wash + Blow dry/Curl) $95
         
     # pricing table loop
-    - name : "Premium"
-      price: "$199"
-      content : "Suitable for small businesses with up to 5 employees"
-      link : "#"
+    - name : "Makeup"
+      price: "$250 +"
+      content : "Women makeup"
+      link : "contact"
       services:
-        - Unlimited agents
-        - 10 PSD Design
-        - HTML5 Markup
-        - Basic SEO
-        - Email Marketing
-        - 24/7 Tech Support
+        - Bridal Mackup $250
+        - 
         
     # pricing table loop
-    - name : "Advance"
-      price: "$299"
-      content : "Suitable for large businesses with unlimited employees"
+    - name : "Facial"
+      price: "$65 +"
+      content : "All Organic"
       link : "#"
       services:
-        - Unlimited agents
-        - 10 PSD Design
-        - HTML5 Markup
-        - Basic SEO
-        - Email Marketing
-        - 24/7 Tech Support
+        - Sliver service $45
+        - Gold service $65
+        - Platinam service $85
         
 ############################# call to action #################################
 cta:

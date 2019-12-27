@@ -2,6 +2,6 @@
 title: ""
 description: ""
 draft: false
-image : "images/work/mu-02.jpg"
+image : "images/work/mu-04.jpg"
 category: "Makeup"
 ---

@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
 baseURL = "https://416salon.netlify.com"
-title = "Airspace | Creative Agency Hugo Template"
+title = "416Salon"
 theme = "airspace-hugo"
 # post pagination
 paginate = "4"
@@ -48,71 +48,22 @@ disableLanguages = ["fr"]
   
   # main menu
   [[menu.main]]
-  name = "About"
-  URL = "about"
-  weight = 1
-  
-  [[menu.main]]
   name = "Project"
   URL = "project"
   weight = 2
   
   [[menu.main]]
-  name = "Service"
-  URL = "service"
+  name = "Pricing"
+  URL = "pricing"
   weight = 3
-
-  [[menu.main]]
-  weight = 4
-  name = "Pages"
-  hasChildren = true
-
-    [[menu.main]]
-    parent = "Pages"
-    name = "FAQ"
-    URL = "faq"
-
-    [[menu.main]]
-    parent = "Pages"
-    name = "Pricing"
-    URL = "pricing"
     
   [[menu.main]]
   name = "Contact"
   URL = "contact"
-  weight = 5
+  weight = 4
 
   
   # footer menu
-  [[menu.footer]]
-  name = "About"
-  URL = "about"
-  weight = 1
-  
-  [[menu.footer]]
-  name = "Project"
-  URL = "project"
-  weight = 2
-  
-  [[menu.footer]]
-  name = "Service"
-  URL = "service"
-  weight = 3
-  
-  [[menu.footer]]
-  name = "Pricing"
-  URL = "pricing"
-  weight = 4
-  
-  [[menu.footer]]
-  name = "FAQ"
-  URL = "faq"
-  weight = 5
-  
-  [[menu.footer]]
-  name = "Contact"
-  URL = "contact"
-  weight = 6
 
 
 #################### default parameters ################################
@@ -120,14 +71,14 @@ disableLanguages = ["fr"]
 logo = "images/logo.png"
 home = "Home"
 # Meta data
-description = "This is meta description"
+description = "New look everyday"
 author = "Themefisher"
 # Contact Information
-mobile = "0124857985320"
+mobile = "647-669-2658"
 email = "demo@email.com"
-location = "North Main Street,Brooklyn Australia"
+location = "3869 Lawrance Ave E, Scarborough, ON"
 # contact form action
-contact_form_action = "#" # contact form works with : https://formspree.io
+contact_form_action = "https://formspree.io/mjvgonvy" # contact form works with : https://formspree.io
 # Google Analitycs
 google_analitycs_id = "Your ID"
 
@@ -145,42 +96,7 @@ google_analitycs_id = "Your ID"
   enable = true
   label = "Get A Quote"
   link = "contact"
-
-  # google map
-  [params.gmap]
-  enable = true
-  gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
-  map_latitude = "51.5223477"
-  map_longitude = "-0.1622023"
-  map_marker = "images/marker.png"
-
   
-############################# social site ########################
-[[params.social]]
-icon = "ion-social-googleplus-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
-
-[[params.social]]
-icon = "ion-social-linkedin-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
-
-[[params.social]]
-icon = "ion-social-pinterest-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
-
-[[params.social]]
-icon = "ion-social-dribbble-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
-
-[[params.social]]
-icon = "ion-social-twitter-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
-
-[[params.social]]
-icon = "ion-social-facebook-outline" #ionicon pack v2 : https://ionicons.com/v2/
-link = "#"
-
-
 ################################# language ################################
 [Languages]
 
@@ -192,7 +108,7 @@ link = "#"
   weight = 1
   home = "Home"
   # copyright
-  copyright = "Copyright &copy; 2019 [Themefisher](https://themefisher.com) All Rights Reserved"
+  copyright = "[cr0ss0ver](https://cr0ss0ver.com) All Rights Reserved"
 
   ################################ France Language ########################
   [Languages.fr]
